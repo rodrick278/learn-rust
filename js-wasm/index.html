@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Hello wasm-pack!</title>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <noscript
@@ -12,7 +14,11 @@
 
     <script src="./bootstrap.js"></script>
 
-    <input placeholder="input name" class="input" />
-    <button id="btn">confirm</button>
+    <div>
+      <input placeholder="input width/height" class="input" />
+      <button id="btn">start</button>
+      <button id="btnStop">stop</button>
+    </div>
+    <pre id="game-of-life-canvas"></pre>
   </body>
 </html>
